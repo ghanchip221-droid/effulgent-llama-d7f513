@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ambika Fancy Hardware</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+<img src="logo.png" class="logo">
+
+<h2>Ambika Fancy Hardware</h2>
+
+<input type="text" id="search" placeholder="Search hardware products">
+
+<button onclick="searchProduct()">Search</button>
+
+</header>
+
+
+<nav class="categories">
+
+<button onclick="filterCategory('all')">All</button>
+<button onclick="filterCategory('locks')">Locks</button>
+<button onclick="filterCategory('handles')">Handles</button>
+<button onclick="filterCategory('tools')">Tools</button>
+
+</nav>
+
+
+<section class="banner">
+
+<h1>Best Hardware Products</h1>
+
+</section>
+
+
+<section id="product-list" class="products"></section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

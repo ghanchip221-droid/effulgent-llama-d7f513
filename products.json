@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Steel Door Lock",
+    "price": 450,
+    "category": "locks",
+    "image": "uploads/lock.jpg"
+  },
+  {
+    "name": "Door Handle",
+    "price": 250,
+    "category": "handles",
+    "image": "uploads/handle.jpg"
+  },
+  {
+    "name": "Hammer Tool",
+    "price": 300,
+    "category": "tools",
+    "image": "uploads/tools.jpg"
+  }
+]
